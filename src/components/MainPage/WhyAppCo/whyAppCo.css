@@ -1,0 +1,28 @@
+.whyAppCo {
+  height: 38.625rem; }
+  .whyAppCo__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center; }
+  .whyAppCo__title {
+    width: 32.5rem;
+    text-align: center;
+    margin: 1rem 0 0;
+    color: #1a1a1a; }
+  .whyAppCo__subtitle {
+    width: 45rem;
+    text-align: center;
+    margin: 1.5rem 0 0;
+    color: #7e7e7e; }
+  .whyAppCo__cards {
+    margin: 2.5rem 0 0; }
+
+/*# sourceMappingURL=whyAppCo.css.map */

@@ -1,0 +1,29 @@
+.blue-block {
+  position: relative;
+  height: 24.625rem;
+  margin-top: 2.1875rem;
+  background-image: url("./img/blue-block.png");
+  color: #ffffff; }
+  .blue-block__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .blue-block__title {
+    width: 33.76rem;
+    margin-top: 4.375rem;
+    font-weight: 700; }
+  .blue-block__text {
+    margin: 1rem 0 1.5rem;
+    width: 35.625rem;
+    font-size: 1rem;
+    line-height: 1.4375rem; }
+  .blue-block__img {
+    position: relative;
+    height: 24.625rem;
+    width: 40rem; }
+  .blue-block__img-comp {
+    position: absolute;
+    bottom: 0;
+    width: 40rem; }
+
+/*# sourceMappingURL=blueBlock.css.map */

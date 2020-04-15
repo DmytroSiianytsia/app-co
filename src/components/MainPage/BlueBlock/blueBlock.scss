@@ -1,0 +1,39 @@
+@import '../../variables.scss';
+
+.blue-block {
+  position: relative;
+  height: 24.625rem;
+  margin-top: 2.1875rem;
+
+  background-image: url('./img/blue-block.png');
+  color: $white;
+
+  &__content {    
+    display: flex;    
+  }
+
+  &__title {
+    width: 33.76rem;
+    margin-top: 4.375rem;
+    font-weight: 700;    
+  }
+
+  &__text {
+    margin: 1rem 0 1.5rem ;
+    width: 35.625rem;
+    font-size: 1rem;
+    line-height: 1.4375rem;   
+  }
+
+  &__img {
+    position: relative;
+    height: 24.625rem;
+    width: 40rem;
+  }
+
+  &__img-comp {
+    position: absolute;
+    bottom: 0;       
+    width: 40rem;    
+  }
+}

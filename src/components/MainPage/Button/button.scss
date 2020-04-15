@@ -1,0 +1,33 @@
+@import '../../variables.scss';
+
+.btn {
+  width: 9.625rem;
+  height: 3.5rem; 
+
+  font-size: 1rem;
+
+  border: none;
+  border-radius: 0.5rem;
+  color: $blue;
+  background: $white;
+  outline: none;
+  cursor: pointer;
+}
+
+.blueBlock_mod{
+  width: 13.75rem;
+}
+
+.packages_mod {
+  width: 13.75rem;
+
+  background: $blue;
+  color: $white;
+}
+
+.footer_mod {
+  width: 11rem;
+
+  background: $blue;
+  color: $white;
+}

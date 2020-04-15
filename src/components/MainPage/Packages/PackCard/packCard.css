@@ -1,0 +1,58 @@
+.packCard {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 23.75rem;
+  height: 39.25rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 2rem;
+  border: 2px solid #f1f1f1;
+  background-color: #ffffff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s; }
+  .packCard__title {
+    margin: 1.875rem 0 0;
+    color: #1a1a1a; }
+  .packCard__img {
+    width: 13.125rem;
+    height: 7.625rem;
+    margin: 1.25rem 0 6.125rem; }
+  .packCard__price {
+    position: absolute;
+    top: 13.75rem;
+    font-size: 3rem;
+    line-height: 3.75rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    -webkit-transition: 0.2s;
+    transition: 0.2s; }
+  .packCard__hr {
+    width: 15.5rem;
+    height: 1px;
+    background: -webkit-gradient(linear, left top, right top, from(#ffffff), color-stop(#ccc), to(#ffffff));
+    background: linear-gradient(to right, #ffffff, #ccc, #ffffff); }
+  .packCard__text {
+    width: 14rem;
+    height: 11.25rem;
+    margin: 1.5rem 0;
+    font-size: 1rem;
+    line-height: 1.875rem;
+    color: #7e7e7e; }
+  .packCard:hover {
+    -webkit-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.16);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.16); }
+  .packCard:hover .packCard__price {
+    -webkit-transform: scale(1.166);
+            transform: scale(1.166);
+    color: #3a80ba; }
+
+/*# sourceMappingURL=packCard.css.map */
