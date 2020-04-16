@@ -15,7 +15,7 @@ export default function Pagination({ users, usersPerPage, paginate }) {
       <li
         className="pagination__list-item"
         key={i}
-        onClick={() => paginate(i)}
+        onClick={() => paginate(i)}        
       >
         {i}
       </li>

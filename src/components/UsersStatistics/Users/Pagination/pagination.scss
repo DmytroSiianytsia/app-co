@@ -18,12 +18,13 @@
     height: 3rem;
     margin: 0 0.5rem;
     box-sizing: border-box;
+    text-align: center; 
+
+    line-height: 3rem; 
 
     border: 2px solid $tr-even;
     border-radius: 0.5rem;
     list-style: none;  
-    text-align: center; 
-    line-height: 3rem; 
     cursor: pointer; 
     
     &:hover {

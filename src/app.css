@@ -13,6 +13,7 @@ h4 {
 
 .app {
   max-width: 90rem;
+  min-width: 620px;
   margin: 0 auto; }
 
 .container {
