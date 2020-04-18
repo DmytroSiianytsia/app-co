@@ -10,7 +10,9 @@ export default function Card({ img, title, text, price }) {
       <div className="packCard__price">{price}</div>
       <div className="packCard__hr"></div>
       <p className="packCard__text">{text}</p>
-      <Button title="Purchase now" modClass="packages_mod" />
+      {/* <div className="packCard__btn"> */}
+        <Button title="Purchase now" modClass="packages_mod" />
+      {/* </div> */}
     </div>
   )
 }

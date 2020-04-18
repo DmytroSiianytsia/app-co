@@ -61,6 +61,7 @@
 
   &__tr-body {
     cursor: pointer;
+    transition: 0.1s;
 
     &:nth-child(odd) {
       background: $tr-odd;
@@ -68,7 +69,12 @@
   
     &:nth-child(even) {
       background: $tr-even;
-    }   
+    }  
+    
+    &:hover {
+      background: $blue;
+      color: $white;
+    }
   }
 
   &__td {

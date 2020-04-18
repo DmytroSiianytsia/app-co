@@ -17,7 +17,6 @@
 
   &__title {
     margin: 1.875rem 0 0;
-
     color: $black;
   }
 
@@ -55,6 +54,10 @@
     line-height: 1.875rem;    
 
     color: $grey;
+  }
+
+  &__btn {
+    position: absolute;
   }
 
   &:hover {

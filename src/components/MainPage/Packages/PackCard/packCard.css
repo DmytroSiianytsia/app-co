@@ -47,6 +47,8 @@
     font-size: 1rem;
     line-height: 1.875rem;
     color: #7e7e7e; }
+  .packCard__btn {
+    position: absolute; }
   .packCard:hover {
     -webkit-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.16);
             box-shadow: 0 4px 16px rgba(0, 0, 0, 0.16); }

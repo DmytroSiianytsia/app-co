@@ -35,11 +35,16 @@
     .table__th:last-child {
       border-top-right-radius: 0.5rem; }
   .table__tr-body {
-    cursor: pointer; }
+    cursor: pointer;
+    -webkit-transition: 0.1s;
+    transition: 0.1s; }
     .table__tr-body:nth-child(odd) {
       background: #fbfbfb; }
     .table__tr-body:nth-child(even) {
       background: #f1f1f1; }
+    .table__tr-body:hover {
+      background: #3a80ba;
+      color: #ffffff; }
   .table__td {
     padding: 0.5rem;
     font-size: 1rem;
